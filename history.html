@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <script src="script.js" defer></script> 
+    <title>History</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        <style>
+            .banner {
+                background-image: url('https://images.unsplash.com/photo-1473163928189-364b2c4e1135?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+            }
+        </style>
+    </header>
+
+    <div class="filter-container">
+        <label for="resource-filter">Sort by:</label>
+        <select id="resource-filter">
+            <option value="all">All</option>
+            <option value="website">Website</option>
+            <option value="course">Course</option>
+            <option value="podcast">Podcast</option>
+            <option value="streaming-service">Streaming Service</option>
+            <option value="documentaries">Documentaries</option>
+            <option value="youtube">YouTube</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="box website">
+            <strong>History.com</strong><br>
+            <small>Website</small><br>
+            <a href="https://www.history.com/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box website">
+            <strong>BBC History</strong><br>
+            <small>Website</small><br>
+            <a href="https://www.bbc.co.uk/history" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box website">
+            <strong>Smithsonian Magazine - History</strong><br>
+            <small>Website</small><br>
+            <a href="https://www.smithsonianmag.com/history/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box youtube">
+            <strong>CrashCourse - World History</strong><br>
+            <small>YouTube</small><br>
+            <a href="https://www.youtube.com/playlist?list=PL8dPuN6wH4JkW5R93M0hHLOH9E2uNUi4A" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box course">
+            <strong>MIT OpenCourseWare - History</strong><br>
+            <small>Course</small><br>
+            <a href="https://ocw.mit.edu/courses/history/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box course">
+            <strong>Coursera - History Courses</strong><br>
+            <small>Course</small><br>
+            <a href="https://www.coursera.org/browse/humanities/history" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box podcast">
+            <strong>HistoryExtra</strong><br>
+            <small>Podcast</small><br>
+            <a href="https://www.historyextra.com/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box streaming-service">
+            <strong>HISTORY Vault</strong><br>
+            <small>Streaming Service</small><br>
+            <a href="https://www.historyvault.com/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box website">
+            <strong>Ancient History Encyclopedia</strong><br>
+            <small>Website</small><br>
+            <a href="https://www.ancient.eu/" target="_blank"><button>Visit</button></a>
+        </div>
+        <div class="box documentaries">
+            <strong>Top Documentary Films - History</strong><br>
+            <small>Documentaries</small><br>
+            <a href="https://topdocumentaryfilms.com/category/history/" target="_blank"><button>Visit</button></a>
+        </div>
+    </div>
+</body>
+</html>
